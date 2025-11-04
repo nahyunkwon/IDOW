@@ -50,5 +50,5 @@ cudnn.deterministic = True
 # Enable cuDNN benchmark mode to select the fastest convolution algorithm.
 cudnn.enable = True
 cudnn.benchmark = True
-torch.cuda.set_device(5)
+torch.cuda.set_device(0)
 torch.set_num_threads(1)
