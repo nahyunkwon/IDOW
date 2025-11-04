@@ -52,3 +52,5 @@ cudnn.enable = True
 cudnn.benchmark = True
 torch.cuda.set_device(0)
 torch.set_num_threads(1)
+
+print("success until here")
